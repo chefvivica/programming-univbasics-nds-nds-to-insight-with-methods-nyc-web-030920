@@ -23,7 +23,7 @@ def directors_totals(nds)
   index = 0 
     while index < nds.length do 
       director = nds[index]
-      result[director[:names]] = gross_for_director(director)
+      result[director[:name]] = gross_for_director(director)
     index += 1 
     end 
   result
